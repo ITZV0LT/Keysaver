@@ -16,7 +16,7 @@ const COLORS = {
 };
 
 export default function SettingsScreen() {
-  const [settings, setSettings] = useState({ apiBaseUrl: 'https://web-lyart-three-63.vercel.app' });
+  const [settings, setSettings] = useState({ apiBaseUrl: 'https://keysaver-app.vercel.app' });
   const [keyCount, setKeyCount] = useState(0);
   const [saved, setSaved] = useState(false);
 

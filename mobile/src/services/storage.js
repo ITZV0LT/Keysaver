@@ -33,9 +33,9 @@ export async function deleteKey(id) {
 export async function getSettings() {
   try {
     const raw = await AsyncStorage.getItem(SETTINGS_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : { apiBaseUrl: 'https://web-lyart-three-63.vercel.app' };
+    return raw ? JSON.parse(raw) : { apiBaseUrl: 'https://keysaver-app.vercel.app' };
   } catch {
-    return { apiBaseUrl: 'https://web-lyart-three-63.vercel.app' };
+    return { apiBaseUrl: 'https://keysaver-app.vercel.app' };
   }
 }
 
