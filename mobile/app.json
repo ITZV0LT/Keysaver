@@ -49,7 +49,7 @@
       "eas": {
         "projectId": "keysaver-app"
       },
-      "apiBaseUrl": "https://keysaver-web.vercel.app"
+      "apiBaseUrl": "https://web-lyart-three-63.vercel.app"
     }
   }
 }
