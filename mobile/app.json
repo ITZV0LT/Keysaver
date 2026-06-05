@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "KeySaver",
+    "slug": "keysaver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.itzv0lt.keysaver",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "KeySaver needs camera access to photograph your keys."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KeySaver needs photo library access to select key images."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "KeySaver needs access to save key photos.",
+          "savePhotosPermission": "KeySaver needs permission to save key photos."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "keysaver-app"
+      },
+      "apiBaseUrl": "https://keysaver-web.vercel.app"
+    }
+  }
+}
