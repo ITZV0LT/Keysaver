@@ -39,6 +39,18 @@ yarn-error.log*
 # EAS
 .eas/
 
+# Build artifacts
+*.apk
+*.log
+*.bat
+
+# Sensitive files
+New Text Document.txt
+
+# Generated Android project (run: expo prebuild)
+mobile/android/
+mobile/package-lock.json
+
 # Next.js
 .next/
 out/
